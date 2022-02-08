@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <style>
+        #front{
+            background-color: antiquewhite;
+            padding: 5vw;
+        }
+        #back{
+            background-color:rgb(153, 175, 194);
+            padding: 5vw;
+        }
+        summary{
+            font-family: courier;
+            font-weight: 600;
+            font-size: 5vw;
+        }
+        details{
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+        }
+        details > summary{
+            list-style: none;
+        }
+        footer{
+            padding: 20px;
+            
+        }
+        #home{
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            background-color: rgb(72, 206, 72);
+        }
+
+        @media screen and (max-width:700px) {
+            #front,#back{
+                padding: 14vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id = "front">
+        <details>
+            <summary>FROND-END</summary>
+            <h1>HTML</h1>
+            <h1>CSS</h1>
+            <h1>JS</h1>
+        </details>    
+    </div>
+    <div id ="back">
+        <details>
+            <summary>BACK-END</summary>
+            <h1>PYTHON</h1>
+            <h1>SQL</h1>
+            <h1>MY SQL</h1>
+        </details>
+    </div>
+    <!-- <footer>
+        <a id ="home" href="navgation.html">Home</a>
+    </footer> -->
+</body>
+</html>

@@ -1,0 +1,45 @@
+h1{
+    font-style:bold;
+    text-align: center;
+    color: rgb(244, 250, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    background-color: rgb(211, 182, 129);
+}
+table{
+    width: 50%;
+}
+td{
+    text-align: center;
+}
+tr{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+th,td{
+    background-color: aqua;
+    border: 1px solid aqua;
+    border-radius: 8px;
+    padding: 5%;
+}
+
+tr:hover,td:hover{
+    background-color: rgb(160, 113, 113);
+}
+
+a:link{
+    text-decoration: none;
+}
+caption{
+    color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+
+@media screen and (max-width: 800px) {
+    .table{
+        width: 100%;
+    }
+}
+
